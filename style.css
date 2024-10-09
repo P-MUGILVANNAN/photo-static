@@ -1,0 +1,273 @@
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.nav-links .nav-items{
+    color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.logo img{
+    height: 150px;
+    width: 250px;
+}
+
+/* hero */
+.hero-container{
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+    line-height: 15px;
+
+}
+/* story section */
+.story_section{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 80px;
+    gap: 100px;
+    color: #4a3b42;
+    height: 85vh;
+    margin-bottom: 50px;
+}
+.story-image img{
+    height: auto;
+    width: 300px;
+}
+.story_section .story-heading h1{
+    font-size: 110px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: #323b42;
+}
+
+.story-text p{
+    text-align: center;
+    font-size: 17px;
+}
+
+.story-items{
+    list-style: none;
+    text-align: center;
+}
+.story-para p{
+    font-size: 17px;
+    line-height: 30px;
+}
+/* Profile */
+.profile-image img{
+    height: auto;
+    width: 550px;
+}
+.profile{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    margin-right: 150px;
+
+}
+.profile-right .profile-right-text{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+.profile-right img{
+height: auto;
+width: 500px;
+
+}
+.button-container{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-container .btn{
+    margin-top: 40px;
+    background-color: #ba753a;
+    height: 40px;
+    width: 160px;
+    border: none;
+    
+}
+.cap img{
+    height: auto;
+    width: 400px;
+}
+
+.memories p{
+    font-size:x-large;
+    font-family:cursive;
+    font-style: italic;
+    
+}
+
+/* work */
+.work{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-left h1{
+    font-weight: normal;
+    font-size: 130px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.work-right p{
+    font-size: 30px;
+    color: grey;
+    line-height: 45px;
+}
+/* subscribe */
+.subscribe {
+    text-align: center;
+    color: rgb(90, 90, 90);
+    background-color: #f6f7f1;
+    margin-bottom: 60px;
+    height: 380px;
+}
+.subscribe p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifnt;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.subscribe h1{
+    font-size: 40px;
+    font-weight: 200;
+    color: rgb(69, 69, 69);
+}
+.subscribe form input{
+    border: none;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid gray;
+    letter-spacing: 7px;
+    text-align: center;
+    background-color: #f6f7f1;
+    width: 400px;
+}
+.subscribe form button{
+    background-color: #323b42;
+    cursor: pointer;
+    height: 50px;
+    width: 140px;
+    color: white;
+    border: none;
+}
+.subscribe form button:hover{
+    background-color: #b9beba;
+    color: black;
+}
+
+
+/* about */
+
+.about{
+    background-color: #c9a37c;
+    display: flex;
+    justify-content: space-around;
+}
+.about .photographers{
+    text-align:  center;
+   
+    
+}
+.about button{
+    background-color: #af6d33;
+    border: none;
+    height: 50px;
+    width: 170px;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.about button:hover{
+    background-color: white;
+    color: black;
+}
+.follow-img{
+    border-right: 1px solid #323b42;
+    width: 600px;
+    height: 200px;
+}
+.follow-img img{
+    height: 170px;
+    width: 300px;
+}
+.about h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #323b42;
+}
+.links{
+    border-right: 1px solid #323b42;
+    width: 500px;
+    height: 200px;
+}
+.links a{
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+    line-height: 50px;
+}
+.follow{
+    text-align: center;
+}
+.follow .icons{
+    text-align: center;
+}
+.follow .icons a{
+    color: #323b42;
+    font-size: 20px;
+    letter-spacing: 40px;
+}
+
+.ready{
+    text-align: center;
+}
+.ready .para p{
+    color: #323b42;
+    font-size: 18px;
+    line-height: 37px;
+}
+/* footer */
+.footer h1{
+    color: #323b42;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+.footer p{
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #323b42;
+}
+.footer .footer-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav .footer-link{
+    list-style: none;
+    margin-left: 310px;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+.copy p{
+    font-size: 17px;
+}
